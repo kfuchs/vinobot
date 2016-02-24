@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="">
+<html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -9,13 +9,14 @@
     <link rel="icon" href="img/favicon.ico">
     <link rel="stylesheet" href="css/basscss.css">
     <style>
+    html { min-height: 100%; position: relative; }
     .container { max-width: 720px; }
     .light { font-weight: 300; }
     </style>
   </head>
   <body class="white bg-red">
     <div class="container py3">
-      <div class="sm-flex">
+      <div class="sm-flex mb2">
         <div class="sm-col-7 flex-last p3">
           <img class="rounded mb3" src="img/icon.png" width="75" height="75">
           <h1 class="mt0 mb1 caps">Vinobot</h1>
@@ -26,11 +27,11 @@
             <img class="m0" src="img/download.png" width="180" height="54">
           </a>
         </div>
-        <div class="sm-col-5 p3">
-          <a href="https://itunes.apple.com/us/app/vinobot/id1083119387">
-            <img class="" src="img/screenshot.png">
-          </a>
-        </div>
+        <div class="sm-col-5 p3"><img class="" src="img/screenshot.png"></div>
+      </div>
+      <div class="absolute bottom-0 left-0 right-0 block center py1">
+        <a class="btn h5 light" href="https://twitter.com/brensudol">Made by @brensudol</a>
+        <a class="btn h5 light" href="https://github.com/brendansudol/vinobot">GitHub</a>
       </div>
     </div>
   </body>
